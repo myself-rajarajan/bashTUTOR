@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+arr=(foo bar baz 'hello world')
+
+IFS=,
+echo "array is: ${arr[*]}"

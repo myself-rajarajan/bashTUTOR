@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+arr=(na tha da leo)
+
+for item in "${arr[@]}"; do
+	echo "item is: $item"
+done
+echo ""
+for item in "${arr[*]}"; do
+	echo "item is: $item"
+done

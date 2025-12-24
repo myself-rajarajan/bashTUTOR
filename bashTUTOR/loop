@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo hello
+
+for thing in foo bar baz bat; do
+	echo "thing is $thing"
+done

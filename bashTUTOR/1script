@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+name="Rajarajan"
+age=21
+course="Information Technology"
+System=`uname -a`
+echo "Hello $name, your age is: $age"
+echo "you are studying the course of: $course"
+echo "The system that you are using is: $System"
+echo "Thank you"
+

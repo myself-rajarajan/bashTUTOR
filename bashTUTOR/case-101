@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+s=$1
+case "$s" in
+	selvaa)
+		echo hiii selvaa
+		;;
+	ragu)
+		echo hello ragu
+		;;
+	akass)
+		echo vada akass
+		;;
+	adhi)
+		echo here comes pedo
+		;;
+	muthu)
+		echo vanga uncle
+		;;
+	*)
+		echo idk who the fuck you are. get out
+		;;
+esac
